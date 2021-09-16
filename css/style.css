@@ -18,3 +18,15 @@ body{
     color: #434343;
 }
 
+main.calculadora{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    padding: 32px;
+    border-radius: 8px;
+    background: rgba(239, 251, 255, 0.8);
+}
+
+
