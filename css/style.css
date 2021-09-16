@@ -29,4 +29,25 @@ main.calculadora{
     background: rgba(239, 251, 255, 0.8);
 }
 
+main.calculadora .inp{
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+}
 
+main.calculadora .inp label{
+    padding: 8px;
+}
+
+main.calculadora .inp input{
+    border: none;
+    border-radius: 8px;
+    width: 350px;
+    height: 35px;
+    padding: 10px;
+    margin-bottom: 16px;
+}
+
+main.calculadora .inp input:focus{
+    outline: 0;
+}
