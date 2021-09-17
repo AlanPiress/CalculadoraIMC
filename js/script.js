@@ -17,7 +17,7 @@ function calculoImc (){
         }
 
         else if (valorImc < 25){
-            classificacao= "com peso ideal."
+            classificacao= "com o peso ideal."
         }
 
         else if (valorImc < 30){
