@@ -1,5 +1,4 @@
 calcular=addEventListener("click", calculoImc);
-
 function calculoImc (){
     const altura= document.getElementById("altura").value;
     const peso= document.getElementById("peso").value;
@@ -39,7 +38,7 @@ function calculoImc (){
         resultado.textContent= `Seu IMC é ${valorImc} e você está ${classificacao}`;
 
     }
-
+    
     else{
         resultado.textContent= "Preencha todos os campos!"
     }
